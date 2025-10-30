@@ -1,0 +1,8 @@
+requests
+sentence-transformers
+datasets
+pandas
+mysql-connector-python
+cachetools 
+matplotlib
+kafka-python
