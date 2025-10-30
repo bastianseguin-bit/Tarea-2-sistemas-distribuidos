@@ -1,4 +1,4 @@
-# Tarea 2 – Sistemas Distribuidos 2025-2
+# Tarea 2 – Sistemas Distribuidos
 Arquitectura Asíncrona con Kafka y Flink
 
 ## Descripción
@@ -34,7 +34,11 @@ Traffic Generator → Kafka → LLM Consumer → Flink → Kafka → Storage
 ```bash
 git clone https://github.com/bastianseguin-bit/Tarea-2-sistemas-distribuidos.git
 cd Tarea-2-sistemas-distribuidos
-docker-compose up --build
+docker compose build
+docker compose up -d
+docker compose logs -f traffic_generator (terminal propia)
+docker compose logs -f llm_worker (terminal propia)
+docker compose logs -f flink_processor (terminal propia)
 ```
 
 Esto levantará todos los servicios: Kafka, Flink, LLM Consumer, Storage y el generador de tráfico.
@@ -45,4 +49,4 @@ Esto levantará todos los servicios: Kafka, Flink, LLM Consumer, Storage y el ge
 - Mejora del score promedio de respuestas tras el feedback loop de Flink.
 
 ## Video de Demostración
-[Enlace al video de presentación](#)
+https://youtu.be/0Rphq5orI3Q(#)
