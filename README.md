@@ -49,4 +49,4 @@ Esto levantará todos los servicios: Kafka, Flink, LLM Consumer, Storage y el ge
 - Mejora del score promedio de respuestas tras el feedback loop de Flink.
 
 ## Video de Demostración
-https://youtu.be/0Rphq5orI3Q(#)
+https://youtu.be/0Rphq5orI3Q
